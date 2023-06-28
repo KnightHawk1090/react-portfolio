@@ -1,0 +1,79 @@
+header {
+    height: 100;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* CTA styles */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* Socials */
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+/* Profile */
+
+.profile {
+    width: 25%;
+    left: calc(50% - 11px);
+    margin-top: 2rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Medium Devices */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+
+    .profile {
+        width: 50%;
+        height: 50%;
+        margin-top: -2rem;
+    }
+    
+}
+
+/* Small devices */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials {
+        display: none;
+    }
+
+    .profile {
+        width: 50%;
+        height: 50%;
+        margin-top: -2rem;
+    }
+    
+}
