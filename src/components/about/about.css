@@ -22,7 +22,7 @@
 .about__cards {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    gap: 5.5rem;
+    gap: 2.2rem;
 }
 
 .about__card {
