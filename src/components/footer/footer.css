@@ -1,19 +1,48 @@
-footer {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  footer {
     background: var(--color-primary);
     padding: 3rem 0;
     text-align: center;
-    font-size: 2.0 rem;
-    margin-top: 7rem;
-}
-
-footer a {
+    font-size: 2.0rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  footer a {
     color: var(--color-bg);
-}
-
-.permalinks {
+  }
+  
+  .permalinks {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
-}
+  }
+  
+  .permalinks li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .permalinks li a {
+    color: var(--color-bg);
+    text-decoration: none;
+  }
+  
+  .permalinks li a:hover {
+    color: var(--color-secondary);
+  }
+  
