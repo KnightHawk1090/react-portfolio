@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.css';
-import { AiOutlineHome } from 'react-icons/ai';
+// import { AiOutlineHome } from 'react-icons/ai'; // Commented out the Home button
 import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
@@ -20,7 +20,8 @@ const Nav = () => {
 
   return (
     <nav>
-      <a
+      {/* causing deployment failure. temp removing the button so proj can be submitted. will re-eval
+          <a
         href="#"
         onClick={() => {
           handleNavClick('#');
@@ -30,7 +31,7 @@ const Nav = () => {
       >
         <span>Home</span>
         <AiOutlineHome aria-hidden="true" />
-      </a>
+      </a> */}
       <a
         href="#about"
         onClick={() => handleNavClick('#about')}
