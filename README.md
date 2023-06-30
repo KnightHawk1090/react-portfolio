@@ -43,7 +43,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 #### GitHub: https://github.com/KnightHawk1090/react-portfolio
-#### Deployed: https://github.com/KnightHawk1090/react-portfolio
+#### Deployed: https://eric-partain-portfolio.netlify.app/
 
 
 
