@@ -6,28 +6,28 @@ import {BsDiscord} from 'react-icons/bs'
 
 const Contact = () => {
   return (
-    <section id='contact'>
+    <section id='contact' className='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <AiTwotoneMail />
+            <AiTwotoneMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>bamafan1090@yahoo.com</h5>
             <a href="mailto:bamafan1090@yahoo.com" target='__blank'>Reach Out</a>
           </article>
 
           <article className="contact__option">
-            <BsMessenger />
+            <BsMessenger className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Eric Partain</h5>
             <a href="https://m.me/KnightHawk1090/" target='__blank'>Reach Out</a>
           </article>
 
           <article className="contact__option">
-            <BsDiscord />
+            <BsDiscord className='contact__option-icon'/>
             <h4>Discord</h4>
             <h5>knighthawk1090</h5>
             <a href="https://discord.com/users/knighthawk1090" target='__blank'>Reach Out</a>
