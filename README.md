@@ -42,7 +42,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ![image](https://github.com/KnightHawk1090/react-portfolio/assets/121210332/9547340a-1dc5-4d23-a9f9-96e2c5d76004)
 
 
-
+GitHub: https://github.com/KnightHawk1090/react-portfolio
+Deployed: https://github.com/KnightHawk1090/react-portfolio
 
 
 
