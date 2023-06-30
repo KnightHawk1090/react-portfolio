@@ -9,26 +9,57 @@ import { useState } from 'react';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
-  
+
+  const handleNavClick = (navId) => {
+    setActiveNav(navId);
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <nav>
-      <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
+      <a
+        href="#"
+        onClick={() => {
+          handleNavClick('#');
+          scrollToTop();
+        }}
+        className={activeNav === '#' ? 'active' : ''}
+      >
         <span>Home</span>
         <AiOutlineHome aria-hidden="true" />
       </a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
+      <a
+        href="#about"
+        onClick={() => handleNavClick('#about')}
+        className={activeNav === '#about' ? 'active' : ''}
+      >
         <span>About</span>
         <AiOutlineUser aria-hidden="true" />
       </a>
-      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>
+      <a
+        href="#experience"
+        onClick={() => handleNavClick('#experience')}
+        className={activeNav === '#experience' ? 'active' : ''}
+      >
         <span>Experience</span>
         <BiBook aria-hidden="true" />
       </a>
-      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}>
+      <a
+        href="#services"
+        onClick={() => handleNavClick('#services')}
+        className={activeNav === '#services' ? 'active' : ''}
+      >
         <span>Services</span>
         <RiServiceLine aria-hidden="true" />
       </a>
-      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
+      <a
+        href="#contact"
+        onClick={() => handleNavClick('#contact')}
+        className={activeNav === '#contact' ? 'active' : ''}
+      >
         <span>Contact</span>
         <BiMessageSquareDetail aria-hidden="true" />
       </a>
