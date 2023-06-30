@@ -9,7 +9,7 @@ import quiz from '../../assets/quiz.png';
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>Finished Project Samples</h5>
+      <h5 className='h5'>Finished Project Samples</h5>
 
       <div className="container portfolio__container">
         <article className='portfolio__item'>
