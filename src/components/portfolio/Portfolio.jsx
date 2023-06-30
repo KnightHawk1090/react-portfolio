@@ -18,8 +18,8 @@ const Portfolio = () => {
           </div>
           <h3>Secure Password Generator</h3>
 
-          <a href="https://github.com/KnightHawk1090/module-3-challenge" className='btn' target='__blank'>Code</a>
-          <a href="https://knighthawk1090.github.io/module-3-challenge/" className='btn btn-primary' target='__blank'>Deployed Project</a>
+          <a href="https://github.com/KnightHawk1090/module-3-challenge" className='btn' target='_blank' rel='noopener noreferrer'>Code</a>
+          <a href="https://knighthawk1090.github.io/module-3-challenge/" className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Deployed Project</a>
         </article>
 
         <article className='portfolio__item'>
@@ -28,8 +28,8 @@ const Portfolio = () => {
           </div>
           <h3>BookBuster</h3>
 
-          <a href="https://github.com/TuddaT0224/Module-8-Project-1" className='btn' target='__blank'>Code</a>
-          <a href="https://tuddat0224.github.io/BookBuster/" className='btn btn-primary' target='__blank'>Deployed Project</a>
+          <a href="https://github.com/TuddaT0224/Module-8-Project-1" className='btn' target='_blank' rel='noopener noreferrer'>Code</a>
+          <a href="https://tuddat0224.github.io/BookBuster/" className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Deployed Project</a>
         </article>
 
         <article className='portfolio__item'>
@@ -38,8 +38,8 @@ const Portfolio = () => {
           </div>
           <h3>City Weather Forecast</h3>
 
-          <a href="https://github.com/KnightHawk1090/module-6-challenge-weather-report" className='btn' target='__blank'>Code</a>
-          <a href="https://knighthawk1090.github.io/module-6-challenge-weather-report/" className='btn btn-primary' target='__blank'>Deployed Project</a>
+          <a href="https://github.com/KnightHawk1090/module-6-challenge-weather-report" className='btn' target='_blank' rel='noopener noreferrer'>Code</a>
+          <a href="https://knighthawk1090.github.io/module-6-challenge-weather-report/" className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Deployed Project</a>
         </article>
 
         <article className='portfolio__item'>
@@ -48,23 +48,23 @@ const Portfolio = () => {
           </div>
           <h3>Daily Planner</h3>
 
-          <a href="https://github.com/KnightHawk1090/module-5-challenge-workplanner" className='btn' target='__blank'>Code</a>
-          <a href="https://knighthawk1090.github.io/module-5-challenge-workplanner/" className='btn btn-primary' target='__blank'>Deployed Project</a>
+          <a href="https://github.com/KnightHawk1090/module-5-challenge-workplanner" className='btn' target='_blank' rel='noopener noreferrer'>Code</a>
+          <a href="https://knighthawk1090.github.io/module-5-challenge-workplanner/" className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Deployed Project</a>
         </article>
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={quiz} alt="" />
           </div>
-          <h3>Secure Password Generator</h3>
+          <h3>Maximum API Code Quiz</h3>
 
-          <a href="https://github.com/KnightHawk1090/maximum-api-code-quiz" className='btn' target='__blank'>Code</a>
-          <a href="https://knighthawk1090.github.io/maximum-api-code-quiz/" className='btn btn-primary' target='__blank'>Deployed Project</a>
+          <a href="https://github.com/KnightHawk1090/maximum-api-code-quiz" className='btn' target='_blank' rel='noopener noreferrer'>Code</a>
+          <a href="https://knighthawk1090.github.io/maximum-api-code-quiz/" className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Deployed Project</a>
         </article>
 
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

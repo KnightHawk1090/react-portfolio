@@ -1,6 +1,7 @@
 import React from 'react';
 import './services.css';
-import {RxDotFilled} from 'react-icons/rx';
+import { RxDotFilled } from 'react-icons/rx';
+
 
 const Services = () => {
   return (
