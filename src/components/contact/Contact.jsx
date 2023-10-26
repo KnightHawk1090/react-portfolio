@@ -31,7 +31,7 @@ const Contact = () => {
             <AiTwotoneMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>bamafan1090@yahoo.com</h5>
-            <a href="mailto:bamafan1090@yahoo.com" target='__blank'>Reach Out</a>
+            <a href="mailto:eric.partain@yahoo.com" target='__blank'>Reach Out</a>
           </article>
 
           <article className="contact__option">
